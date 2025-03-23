@@ -16,7 +16,7 @@
 ---
 
 ### 🎀 **Onde me encontrar?**  
-📌 **LinkedIn:** [linkedin.com/in/julianafurlanc](www.linkedin.com/in/julianafurlanc)  
+📌 **LinkedIn:** [linkedin.com/in/julianafurlanc](https://linkedin.com/in/julianafurlanc)
 
 ---
 
