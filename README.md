@@ -22,7 +22,7 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXZtbndhOXhmYmhobTVvZGhuMGpmMG9jMjdsaG0xOXN2MWtqc29ldCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbnUQpnihPSIgIXuZv/giphy.gif" width="80px">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXZtbndhOXhmYmhobTVvZGhuMGpmMG9jMjdsaG0xOXN2MWtqc29ldCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbnUQpnihPSIgIXuZv/giphy.gif" width="200px" style="border-radius:50%">>20
 </p>
 
 
