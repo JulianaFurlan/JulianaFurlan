@@ -21,7 +21,7 @@
 ---
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/JulianaFurlan/JulianaFurlan/main/Imagem do WhatsApp de 2025-03-23 à(s) 18.53.17_a7d0feba.jpg" width="200px" style="border-radius:50%">
+<img src="https://raw.githubusercontent.com/JulianaFurlan/JulianaFurlan/main/Imagem do WhatsApp de 2025-03-23 à(s) 18.53.17_a7d0feba.jpg" width="200px" border-radius="50%">
 </p>
 
 
