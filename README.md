@@ -3,6 +3,6 @@
         🌸
     </div>
     <div style="font-size: 24px; color: #ff4081; font-family: 'Courier New', Courier, monospace;">
-        Florzinha Kawaii!
+
     </div>
 </div>
