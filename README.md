@@ -2,7 +2,4 @@
     <div style="font-size: 48px; color: #e91e63; font-family: 'Courier New', Courier, monospace;">
         🌸
     </div>
-    <div style="font-size: 24px; color: #ff4081; font-family: 'Courier New', Courier, monospace;">
-
-    </div>
 </div>
