@@ -1,27 +1,57 @@
-<h1 align="center"> 🌸 Olá, bem-vindo(a) ao meu perfil! 🌸 </h1>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florzinha Pixel Art</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #fce4ec;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById("gameCanvas");
+        const ctx = canvas.getContext("2d");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
 
----
+        const flower = new Image();
+        flower.src = "https://i.imgur.com/0hl9yLq.png"; // URL da flor em pixel art
 
-💖 **Sobre mim:**  
-🌸 Me chamo Juliana!  
-💻 Atualmente estudando Java, Web e Banco de Dados!  
-📚 Sempre em busca de aprender mais e compartilhar conhecimento.  
+        let x = 50;
+        let y = 50;
+        let dx = 2;
+        let dy = 2;
 
----
+        function update() {
+            x += dx;
+            y += dy;
+            if (x + 32 > canvas.width || x < 0) dx *= -1;
+            if (y + 32 > canvas.height || y < 0) dy *= -1;
+        }
 
-### 🌺 **Linguagens e Tecnologias:**  
-🌷 Java | HTML | CSS | JavaScript  
-🌷 Git & GitHub | Banco de Dados | UI/UX  
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(flower, x, y, 32, 32);
+        }
 
----
+        function loop() {
+            update();
+            draw();
+            requestAnimationFrame(loop);
+        }
 
-### 🎀 **Onde me encontrar?**  
-📌 **LinkedIn:** [linkedin.com/in/julianafurlanc](https://linkedin.com/in/julianafurlanc)
-
----
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/JulianaFurlan/JulianaFurlan/main/Imagem do WhatsApp de 2025-03-23 à(s) 18.53.17_a7d0feba.jpg" width="200px" border-radius="50%">
-</p>
-
-
+        flower.onload = () => {
+            loop();
+        };
+    </script>
+</body>
+</html>
