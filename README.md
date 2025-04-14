@@ -1,7 +1,7 @@
 <div style="background-color: #ffe6f0; padding: 20px; border-radius: 20px; text-align: center;">
   <a href="https://github.com/JulianaFurlan">
-    <img height="180em" style="border-radius: 15px; margin: 10px;" src="https://github-readme-stats.vercel.app/api?username=Eduardo-Luis-Alonso-art&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true"/>
-    <img height="180em" style="border-radius: 15px; margin: 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eduardo-Luis-Alonso-art&layout=compact&langs_count=6&theme=rose_pine"/>
+    <img height="180em" style="border-radius: 15px; margin: 10px;" src="https://github-readme-stats.vercel.app/api?username=Juliana-Furlan- art&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true"/>
+    <img height="180em" style="border-radius: 15px; margin: 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juliana-Furlan-art&layout=compact&langs_count=6&theme=rose_pine"/>
   </a>
 </div>
 
